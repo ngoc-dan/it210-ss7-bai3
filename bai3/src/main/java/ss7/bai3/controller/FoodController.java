@@ -19,7 +19,7 @@ import java.util.UUID;
 public class FoodController {
 
     private static List<Food> foodList = new ArrayList<>();
-    private static final String UPLOAD_PATH = "C:\\Users\\DoKhacQuyen\\Documents\\JAVAWEb\\Session7\\src\\main\\resources\\";
+    private static final String UPLOAD_PATH = "C:\\Users\\DoNgocDan\\Documents\\JAVAWEb\\Session7\\src\\main\\resources\\";
     @GetMapping("/add")
     public String showAddForm(Model model) {
         // Chuẩn bị sẵn một object Food trống để bind vào form
